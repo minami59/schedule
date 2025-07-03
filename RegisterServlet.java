@@ -28,7 +28,7 @@ public class RegisterServlet extends HttpServlet {
 			out.println("<html>");
 			out.println("<body background=\"sutarehaikei.jpg\">");
 			out.println("<body>");
-			out.println("<h1>あああああああああ</h1>");
+			out.println("<h1>名前を入力してくれ</h1>");
 			out.println("</body>");
 			out.println("</html>");
 		}else {
@@ -43,8 +43,8 @@ public class RegisterServlet extends HttpServlet {
 			out.println("<input type=\"reset\" value=\"戻る\" />");
 			out.println("</html>");
 		}
-		
 	}
+	
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		doPost(req,res);
 	}
